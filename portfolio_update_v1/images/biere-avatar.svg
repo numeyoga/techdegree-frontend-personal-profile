@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300" role="img" aria-label="Chope de bière">
+  <!-- Fond -->
+  <rect width="300" height="300" fill="#2b3a55"/>
+  <circle cx="150" cy="150" r="120" fill="#34476a"/>
+
+  <!-- Anse de la chope -->
+  <path d="M200 135 H238 a14 14 0 0 1 14 14 V196 a14 14 0 0 1 -14 14 H200"
+        fill="none" stroke="#e8f1f8" stroke-width="10" stroke-linecap="round"/>
+
+  <!-- Bière -->
+  <rect x="94" y="112" width="102" height="122" rx="8" fill="#f2a900"/>
+  <rect x="94" y="112" width="102" height="40" fill="#f7c948" opacity="0.55"/>
+
+  <!-- Bulles -->
+  <circle cx="118" cy="205" r="4" fill="#fff" opacity="0.6"/>
+  <circle cx="140" cy="185" r="3" fill="#fff" opacity="0.6"/>
+  <circle cx="162" cy="210" r="5" fill="#fff" opacity="0.6"/>
+  <circle cx="176" cy="175" r="3" fill="#fff" opacity="0.6"/>
+  <circle cx="128" cy="160" r="3" fill="#fff" opacity="0.6"/>
+
+  <!-- Mousse -->
+  <g fill="#fffaf0">
+    <circle cx="106" cy="104" r="16"/>
+    <circle cx="128" cy="92" r="20"/>
+    <circle cx="154" cy="88" r="22"/>
+    <circle cx="178" cy="98" r="18"/>
+    <circle cx="190" cy="108" r="12"/>
+    <rect x="92" y="102" width="106" height="14" rx="6"/>
+  </g>
+
+  <!-- Verre -->
+  <rect x="90" y="100" width="110" height="142" rx="12" fill="none" stroke="#e8f1f8" stroke-width="6"/>
+  <rect x="90" y="228" width="110" height="14" rx="6" fill="#e8f1f8" opacity="0.35"/>
+
+  <!-- Reflet -->
+  <rect x="104" y="124" width="6" height="90" rx="3" fill="#fff" opacity="0.35"/>
+</svg>

@@ -39,11 +39,10 @@ a:hover {
   margin: 0 auto;
   padding: 0;
 }
-
 .nav .name {
-    display: block;
-    margin-right: auto;
-    color: white;
+  display: block;
+  margin-right: auto;
+  color: white;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
@@ -69,12 +68,12 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
+  border-radius: 25%;
   border: 3px solid white;
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) rotate(-10deg);
 }
 .tag {
   background-color: #efefef;
@@ -151,12 +150,6 @@ a.social {
   opacity: .4;
   transition: all .5s;
 }
-a.twitter {
-  background-image: url(images/twitter.svg);
-}
-a.linkedin {
-  background-image: url(images/linkedin.svg);
-}
 a.github {
   background-image: url(images/github.svg);
 }
@@ -165,6 +158,42 @@ a.social:hover {
 }
 .clearfix {
   clear: both;
+}
+
+.card.flex {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;
+    max-width: none;   /* retire le plafond de 500px */
+    margin: 30px 15px;
+}
+
+.hobby-motorcycle {
+    margin-top: 50px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+    transition: all .5s;
+    align-self: center;
+}
+
+.hobby-motorcycle:hover {
+  transform: scale(1.2) rotate(-10deg);
+}
+
+.hobby-beer {
+    margin-top: 50px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+    transition: all .5s;
+    align-self: center;
+}
+
+.hobby-beer:hover {
+  transform: scale(1.2) rotate(10deg);
 }
 
 /* Styles for larger screens */
